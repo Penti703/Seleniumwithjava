@@ -24,7 +24,7 @@ public class BaseClass {
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	        // Scroll down by 300 pixels
-	        js.executeScript("window.scrollBy(0,300)");
+	        js.executeScript("window.scrollBy(0,2500)");
 	}
 	
 

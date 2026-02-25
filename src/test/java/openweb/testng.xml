@@ -7,6 +7,7 @@
       <class name="openweb.LauncheBrowser"/>
       <class name="openweb.OpenOrangeHRM"/>
       <class name= "qaJava.LocatorsTest"/>
+      <class name= "openweb.WindowHandlessTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
