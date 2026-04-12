@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testautomationPractice.Tabledata">
+      <class name="qaJava.WindowHandles">
         <methods>
-          <include name="tearDown"/>
-          <include name="LaunchPage"/>
-          <include name="selectBox"/>
+          <include name="CloseBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openFacebook"/>
+          <include name="openFacebookAndInsta"/>
         </methods>
-      </class> <!-- testautomationPractice.Tabledata -->
+      </class> <!-- qaJava.WindowHandles -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

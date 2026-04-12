@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-19T12:50:39 IST" name="Default suite" finished-at="2026-02-19T12:51:16 IST" duration-ms="37230">
+  <suite started-at="2026-03-07T07:23:58 IST" name="Default suite" finished-at="2026-03-07T07:24:07 IST" duration-ms="9369">
     <groups>
     </groups>
-    <test started-at="2026-02-19T12:50:39 IST" name="Default test" finished-at="2026-02-19T12:51:16 IST" duration-ms="37230">
-      <class name="testautomationPractice.Tabledata">
-        <test-method is-config="true" signature="LaunchPage()[pri:0, instance:testautomationPractice.Tabledata@38425407]" started-at="2026-02-19T12:50:39 IST" name="LaunchPage" finished-at="2026-02-19T12:50:47 IST" duration-ms="7852" status="PASS">
+    <test started-at="2026-03-07T07:23:58 IST" name="Default test" finished-at="2026-03-07T07:24:07 IST" duration-ms="9369">
+      <class name="qaJava.WindowHandles">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:qaJava.WindowHandles@55182842]" started-at="2026-03-07T07:23:58 IST" name="openBrowser" finished-at="2026-03-07T07:24:04 IST" duration-ms="5987" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchPage -->
-        <test-method signature="tableData()[pri:1, instance:testautomationPractice.Tabledata@38425407]" started-at="2026-02-19T12:50:47 IST" name="tableData" finished-at="2026-02-19T12:50:47 IST" duration-ms="50" status="PASS">
+        </test-method> <!-- openBrowser -->
+        <test-method signature="openFacebookAndInsta()[pri:2, instance:qaJava.WindowHandles@55182842]" started-at="2026-03-07T07:24:04 IST" name="openFacebookAndInsta" finished-at="2026-03-07T07:24:04 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tableData -->
-        <test-method signature="tableRow()[pri:2, instance:testautomationPractice.Tabledata@38425407]" started-at="2026-02-19T12:50:47 IST" name="tableRow" finished-at="2026-02-19T12:50:47 IST" duration-ms="36" status="PASS">
+        </test-method> <!-- openFacebookAndInsta -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:qaJava.WindowHandles@55182842]" started-at="2026-03-07T07:24:04 IST" name="CloseBrowser" finished-at="2026-03-07T07:24:07 IST" duration-ms="3301" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tableRow -->
-        <test-method signature="tableHead()[pri:3, instance:testautomationPractice.Tabledata@38425407]" started-at="2026-02-19T12:50:47 IST" name="tableHead" finished-at="2026-02-19T12:50:55 IST" duration-ms="8170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tableHead -->
-        <test-method signature="selectBox()[pri:4, instance:testautomationPractice.Tabledata@38425407]" started-at="2026-02-19T12:50:55 IST" name="selectBox" finished-at="2026-02-19T12:51:16 IST" duration-ms="20790" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectBox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testautomationPractice.Tabledata@38425407]" started-at="2026-02-19T12:51:16 IST" name="tearDown" finished-at="2026-02-19T12:51:16 IST" duration-ms="267" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testautomationPractice.Tabledata -->
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- qaJava.WindowHandles -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
