@@ -14,6 +14,7 @@ public class SwitchhTest {
 		case "Thusday":System.out.println(5);break;
 		case "Friday":System.out.println(6);break;
 		case "Saterday":System.out.println(7);break;
+		case "NON":System.out.println(7);break;
 		default :System.out.println("inValideWeek");
 	}
 
