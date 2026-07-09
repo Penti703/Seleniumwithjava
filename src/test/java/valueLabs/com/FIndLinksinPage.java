@@ -80,6 +80,7 @@ System.out.println("NonText Count "+countText);
 			}System.out.println("EmptyNameANDwithURL count : "+EmptyNameANDwithURL);
 			System.out.println("EmptyNameANDwithoutURL count : "+EmptyNameANDwithoutURL);
 			System.out.println("WithNameURL count : "+WithNameURL);
+			System.out.println("Verify the all links ");
 		}
 	}
 
