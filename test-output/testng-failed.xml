@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="valueLabs.com.OpenPageOne">
+      <class name="valueLabs.com.OpenAideAcademy">
         <methods>
-          <include name="pageTest_001"/>
           <include name="OpenPage"/>
           <include name="closeApp"/>
+          <include name="openAideAcademyTest_001"/>
         </methods>
-      </class> <!-- valueLabs.com.OpenPageOne -->
+      </class> <!-- valueLabs.com.OpenAideAcademy -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
