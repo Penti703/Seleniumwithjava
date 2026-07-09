@@ -36,7 +36,7 @@ public class OpenPageOne extends BaseClassVL{
 
 		List<WebElement> headLinks = driver.findElements(
 		        By.xpath("//ul[@class='navbar-nav ms-auto']//a[@class='nav-link dropdown-toggle']"));
-
+		
 		for (WebElement link : headLinks) {
 
 		    if (link.getText().trim().equals("Products")) {
