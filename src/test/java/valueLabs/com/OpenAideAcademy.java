@@ -34,7 +34,7 @@ public class OpenAideAcademy extends BaseClassVL {
 		//WebElement aideLink =driver.findElement(By.xpath("//a[normalize-space()='AiDE Academy']"));
 		linkSub.click();
 		String ActulResult=driver.getTitle().trim();
-		String ExpReuslt="AiDE Academy - ValueLab".trim();
+		String ExpReuslt="AiDE Academy - ValueLabs".trim();
 		System.out.println(ExpReuslt);
 		System.out.println(driver.getCurrentUrl());
 		Assert.assertEquals(ExpReuslt, ActulResult," Page title is mismathed ");
