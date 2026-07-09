@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="qaJava.WindowHandles">
+      <class name="valueLabs.com.OpenPageOne">
         <methods>
-          <include name="CloseBrowser"/>
-          <include name="openBrowser"/>
-          <include name="openFacebook"/>
-          <include name="openFacebookAndInsta"/>
+          <include name="pageTest_001"/>
+          <include name="OpenPage"/>
+          <include name="closeApp"/>
         </methods>
-      </class> <!-- qaJava.WindowHandles -->
+      </class> <!-- valueLabs.com.OpenPageOne -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

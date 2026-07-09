@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-07T07:23:58 IST" name="Default suite" finished-at="2026-03-07T07:24:07 IST" duration-ms="9369">
+  <suite started-at="2026-07-07T22:36:23 IST" name="Default suite" finished-at="2026-07-07T22:36:33 IST" duration-ms="10297">
     <groups>
     </groups>
-    <test started-at="2026-03-07T07:23:58 IST" name="Default test" finished-at="2026-03-07T07:24:07 IST" duration-ms="9369">
-      <class name="qaJava.WindowHandles">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:qaJava.WindowHandles@55182842]" started-at="2026-03-07T07:23:58 IST" name="openBrowser" finished-at="2026-03-07T07:24:04 IST" duration-ms="5987" status="PASS">
+    <test started-at="2026-07-07T22:36:23 IST" name="Default test" finished-at="2026-07-07T22:36:33 IST" duration-ms="10297">
+      <class name="valueLabs.com.OpenPageOne">
+        <test-method is-config="true" signature="OpenPage()[pri:0, instance:valueLabs.com.OpenPageOne@7b2bbc3]" started-at="2026-07-07T22:36:23 IST" name="OpenPage" finished-at="2026-07-07T22:36:32 IST" duration-ms="8844" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="openFacebookAndInsta()[pri:2, instance:qaJava.WindowHandles@55182842]" started-at="2026-03-07T07:24:04 IST" name="openFacebookAndInsta" finished-at="2026-03-07T07:24:04 IST" duration-ms="36" status="PASS">
+        </test-method> <!-- OpenPage -->
+        <test-method signature="pageTest_001()[pri:0, instance:valueLabs.com.OpenPageOne@7b2bbc3]" started-at="2026-07-07T22:36:32 IST" name="pageTest_001" finished-at="2026-07-07T22:36:33 IST" duration-ms="713" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openFacebookAndInsta -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:qaJava.WindowHandles@55182842]" started-at="2026-03-07T07:24:04 IST" name="CloseBrowser" finished-at="2026-03-07T07:24:07 IST" duration-ms="3301" status="PASS">
+        </test-method> <!-- pageTest_001 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:valueLabs.com.OpenPageOne@7b2bbc3]" started-at="2026-07-07T22:36:33 IST" name="closeApp" finished-at="2026-07-07T22:36:33 IST" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- qaJava.WindowHandles -->
+        </test-method> <!-- closeApp -->
+      </class> <!-- valueLabs.com.OpenPageOne -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
