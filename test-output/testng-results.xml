@@ -1,66 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-09T22:57:52 IST" name="Default suite" finished-at="2026-07-09T22:58:08 IST" duration-ms="15894">
+  <suite started-at="2026-07-11T00:34:39 IST" name="Default suite" finished-at="2026-07-11T00:35:17 IST" duration-ms="38660">
     <groups>
     </groups>
-    <test started-at="2026-07-09T22:57:52 IST" name="Default test" finished-at="2026-07-09T22:58:08 IST" duration-ms="15894">
-      <class name="valueLabs.com.OpenAideAcademy">
-        <test-method is-config="true" signature="OpenPage()[pri:0, instance:valueLabs.com.OpenAideAcademy@55141def]" started-at="2026-07-09T22:57:52 IST" name="OpenPage" finished-at="2026-07-09T22:58:00 IST" duration-ms="8286" status="PASS">
+    <test started-at="2026-07-11T00:34:39 IST" name="Default test" finished-at="2026-07-11T00:35:17 IST" duration-ms="38660">
+      <class name="valueLabs.com.AIDchatTC001">
+        <test-method is-config="true" signature="OpenPage()[pri:0, instance:valueLabs.com.AIDchatTC001@55141def]" started-at="2026-07-11T00:34:39 IST" name="OpenPage" finished-at="2026-07-11T00:34:56 IST" duration-ms="17408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenPage -->
-        <test-method signature="openAideAcademyTest_001()[pri:0, instance:valueLabs.com.OpenAideAcademy@55141def]" started-at="2026-07-09T22:58:00 IST" name="openAideAcademyTest_001" finished-at="2026-07-09T22:58:07 IST" duration-ms="6984" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[ Page title is mismathed  expected [AiDE Academy - ValueLabs] but found [AiDE Academy - ValueLab]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError:  Page title is mismathed  expected [AiDE Academy - ValueLabs] but found [AiDE Academy - ValueLab]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at valueLabs.com.OpenAideAcademy.openAideAcademyTest_001(OpenAideAcademy.java:40)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="aidtest()[pri:0, instance:valueLabs.com.AIDchatTC001@55141def]" started-at="2026-07-11T00:34:56 IST" name="aidtest" finished-at="2026-07-11T00:35:17 IST" duration-ms="20854" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openAideAcademyTest_001 -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:valueLabs.com.OpenAideAcademy@55141def]" started-at="2026-07-09T22:58:08 IST" name="closeApp" finished-at="2026-07-09T22:58:08 IST" duration-ms="395" status="PASS">
+        </test-method> <!-- aidtest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:valueLabs.com.AIDchatTC001@55141def]" started-at="2026-07-11T00:35:17 IST" name="closeApp" finished-at="2026-07-11T00:35:17 IST" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- valueLabs.com.OpenAideAcademy -->
+      </class> <!-- valueLabs.com.AIDchatTC001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
