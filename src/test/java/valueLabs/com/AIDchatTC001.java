@@ -1,11 +1,12 @@
 package valueLabs.com;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import valueLabsPages.AideWebPage;
 import valueLabsPages.HomePage;
-
+@Listeners(listeners.TestListener.class)
 public class AIDchatTC001 extends BaseClassVL {
 
 @Test

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-11T00:34:39 IST" name="Default suite" finished-at="2026-07-11T00:35:17 IST" duration-ms="38660">
+  <suite started-at="2026-07-11T00:41:48 IST" name="Default suite" finished-at="2026-07-11T00:42:17 IST" duration-ms="28154">
     <groups>
     </groups>
-    <test started-at="2026-07-11T00:34:39 IST" name="Default test" finished-at="2026-07-11T00:35:17 IST" duration-ms="38660">
+    <test started-at="2026-07-11T00:41:48 IST" name="Default test" finished-at="2026-07-11T00:42:17 IST" duration-ms="28154">
       <class name="valueLabs.com.AIDchatTC001">
-        <test-method is-config="true" signature="OpenPage()[pri:0, instance:valueLabs.com.AIDchatTC001@55141def]" started-at="2026-07-11T00:34:39 IST" name="OpenPage" finished-at="2026-07-11T00:34:56 IST" duration-ms="17408" status="PASS">
+        <test-method is-config="true" signature="OpenPage()[pri:0, instance:valueLabs.com.AIDchatTC001@5656be13]" started-at="2026-07-11T00:41:48 IST" name="OpenPage" finished-at="2026-07-11T00:41:55 IST" duration-ms="6608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenPage -->
-        <test-method signature="aidtest()[pri:0, instance:valueLabs.com.AIDchatTC001@55141def]" started-at="2026-07-11T00:34:56 IST" name="aidtest" finished-at="2026-07-11T00:35:17 IST" duration-ms="20854" status="PASS">
+        <test-method signature="aidtest()[pri:0, instance:valueLabs.com.AIDchatTC001@5656be13]" started-at="2026-07-11T00:41:55 IST" name="aidtest" finished-at="2026-07-11T00:42:16 IST" duration-ms="21124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aidtest -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:valueLabs.com.AIDchatTC001@55141def]" started-at="2026-07-11T00:35:17 IST" name="closeApp" finished-at="2026-07-11T00:35:17 IST" duration-ms="362" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:valueLabs.com.AIDchatTC001@5656be13]" started-at="2026-07-11T00:42:16 IST" name="closeApp" finished-at="2026-07-11T00:42:17 IST" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
