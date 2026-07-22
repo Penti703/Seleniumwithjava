@@ -25,7 +25,7 @@ public class ArrayDemo01 {
 			System.out.println(x);
 			
 		}System.out.println("length of array value"+a.length);
-		System.out.println("Venkatesh");
+		
 		
 	}
 
