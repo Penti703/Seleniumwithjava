@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-21T03:47:04 IST" name="Default suite" finished-at="2026-07-21T03:47:17 IST" duration-ms="12706">
+  <suite started-at="2026-07-22T23:01:45 IST" name="Default suite" finished-at="2026-07-22T23:01:48 IST" duration-ms="3136">
     <groups>
     </groups>
-    <test started-at="2026-07-21T03:47:04 IST" name="Default test" finished-at="2026-07-21T03:47:17 IST" duration-ms="12706">
-      <class name="qaJava.WindowHandles">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:qaJava.WindowHandles@a1153bc]" started-at="2026-07-21T03:47:04 IST" name="openBrowser" finished-at="2026-07-21T03:47:07 IST" duration-ms="2826" status="PASS">
+    <test started-at="2026-07-22T23:01:45 IST" name="Default test" finished-at="2026-07-22T23:01:48 IST" duration-ms="3136">
+      <class name="testkru.com.RadioDisable">
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testkru.com.RadioDisable@47eaca72]" started-at="2026-07-22T23:01:45 IST" name="openPage" finished-at="2026-07-22T23:01:48 IST" duration-ms="2661" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="openFacebook()[pri:1, instance:qaJava.WindowHandles@a1153bc]" started-at="2026-07-21T03:47:07 IST" name="openFacebook" finished-at="2026-07-21T03:47:07 IST" duration-ms="516" status="PASS">
+        </test-method> <!-- openPage -->
+        <test-method signature="multiradioSelect()[pri:0, instance:testkru.com.RadioDisable@47eaca72]" started-at="2026-07-22T23:01:48 IST" name="multiradioSelect" finished-at="2026-07-22T23:01:48 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openFacebook -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:qaJava.WindowHandles@a1153bc]" started-at="2026-07-21T03:47:07 IST" name="CloseBrowser" finished-at="2026-07-21T03:47:11 IST" duration-ms="3304" status="PASS">
+        </test-method> <!-- multiradioSelect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testkru.com.RadioDisable@47eaca72]" started-at="2026-07-22T23:01:48 IST" name="tearDown" finished-at="2026-07-22T23:01:48 IST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:qaJava.WindowHandles@a1153bc]" started-at="2026-07-21T03:47:11 IST" name="openBrowser" finished-at="2026-07-21T03:47:13 IST" duration-ms="2205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="openFacebookAndInsta()[pri:2, instance:qaJava.WindowHandles@a1153bc]" started-at="2026-07-21T03:47:13 IST" name="openFacebookAndInsta" finished-at="2026-07-21T03:47:13 IST" duration-ms="486" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openFacebookAndInsta -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:qaJava.WindowHandles@a1153bc]" started-at="2026-07-21T03:47:13 IST" name="CloseBrowser" finished-at="2026-07-21T03:47:17 IST" duration-ms="3307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- qaJava.WindowHandles -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- testkru.com.RadioDisable -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

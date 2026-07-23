@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="valueLabs.com.AIDchatTC001">
+      <class name="testkru.com.RadioMultiSelection">
         <methods>
-          <include name="aidtest"/>
-          <include name="OpenPage"/>
-          <include name="closeApp"/>
+          <include name="radioButtonIsnable"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- valueLabs.com.AIDchatTC001 -->
+      </class> <!-- testkru.com.RadioMultiSelection -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
