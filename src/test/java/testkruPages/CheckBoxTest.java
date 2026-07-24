@@ -32,7 +32,7 @@ public class CheckBoxTest extends BaseClassTestKru{
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[2]//input[@type='checkbox']")
 	 List<WebElement> multiChekBox;
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[3]//input[@type='checkbox']")
-	 WebElement disableChekBox;
+	 List<WebElement> disableChekBox;
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[4]//input[@type='checkbox']")
 	 WebElement hiddenChekBox;
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[5]//input[@type='checkbox']")
@@ -104,4 +104,13 @@ public class CheckBoxTest extends BaseClassTestKru{
 		 		}
 		 	}System.out.println("All the CheckBoxes UnSelected Succefully");
 	 	}
+	 
+	 
+	public void disableChekBox() {
+		for(WebElement checkBox :disableChekBox) {
+			boolean bt=checkBox.isEnabled();
+			Assert.assertFalse(bt);
+			System.out.println(bt);
+		}
+	}
 	 }
