@@ -32,12 +32,12 @@ public class ByUsingActionMethod {
 		WebElement searchBox=driver.findElement(By.xpath("//input[@id='searchbox']"));
 		Actions act=new Actions(driver);
 		searchBox.sendKeys("Canada");
-		act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
+		act.sendKeys(Keys.ARROW_DOWN).click().build().perform();
 		searchBox.sendKeys("India");
 		act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).perform();
 		List<WebElement>dValue=driver.findElements(By.xpath("//div[@class='ui-autocomplete-multiselect-item']"));
 		for(WebElement sDvalue : dValue) {
-			System.out.println("Selected value is : "+sDvalue.getText());
+			System.out.println("Selected value is : "+sDvalue.getAttribute("value"));
 		}
 		driver.close();
 		

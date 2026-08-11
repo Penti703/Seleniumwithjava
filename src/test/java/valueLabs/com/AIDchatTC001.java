@@ -45,7 +45,7 @@ public void aidtest() throws InterruptedException {
 	Thread.sleep(1000);
 	linkAID.messagetxt(randomString());
 	Thread.sleep(1000);
-	linkAID.subButton();
+	linkAID.submitButton();
 	Thread.sleep(2000);
 	
 	/*
@@ -61,6 +61,7 @@ public void aidtest() throws InterruptedException {
 	
 	//Thank you for expressing your interest!
 	
+
 	
 	
 }

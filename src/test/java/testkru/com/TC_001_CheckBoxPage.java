@@ -15,6 +15,14 @@ public class TC_001_CheckBoxPage extends BaseClassTestKru{
 		cbt.singleSelectCheckBox(); 
 		//Multi Select Check box test
 		cbt.multiSelectCheckBox();
+		//Verify the radio buttons 
+		cbt.disableChekBox();
+		//Verify checkbox is not displaying
+		cbt.hiddenChekBox();
+		//PreCheckBox verify
+		cbt.preSelectCheckBox();
+		//Nested CheckBox
+		cbt.nestedChekBox();
 	}
 
 }

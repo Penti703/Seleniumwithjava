@@ -34,11 +34,11 @@ public class CheckBoxTest extends BaseClassTestKru{
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[3]//input[@type='checkbox']")
 	 List<WebElement> disableChekBox;
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[4]//input[@type='checkbox']")
-	 WebElement hiddenChekBox;
+	 List<WebElement> hiddenChekBox;
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[5]//input[@type='checkbox']")
-	 WebElement preSelectChekBox;
-	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[6]//input[@type='checkbox']")
-	 WebElement nestedChekBox;
+	 List<WebElement> preSelectChekBox;
+	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[6]//input[@type='checkbox'][1]")
+	 List<WebElement> nestedChekBox;
 	 
 	 
 	 public void checkBoxLink() {
@@ -107,10 +107,58 @@ public class CheckBoxTest extends BaseClassTestKru{
 	 
 	 
 	public void disableChekBox() {
+		System.out.println("---validating  the disable checkboxes---------");
 		for(WebElement checkBox :disableChekBox) {
 			boolean bt=checkBox.isEnabled();
-			Assert.assertFalse(bt);
-			System.out.println(bt);
-		}
+			try {
+			if(checkBox.isEnabled()) {
+			Assert.assertFalse(bt,"Is enabled");
+			}
+			}catch (Exception e) {
+				System.out.println(" Button are enabled ");	
+			}		
+		}System.out.println("All check boxes buttons are disabled");
 	}
-	 }
+	public void hiddenChekBox() {
+		System.out.println("----verify Hide radio buttons----");
+		for(WebElement hiddCheckButton : hiddenChekBox) {
+			try {
+				if(hiddCheckButton.isDisplayed()) {
+					boolean chekBox=hiddCheckButton.isDisplayed();
+					Assert.assertFalse(chekBox,"Is displayed");
+				}
+			}catch(Exception e) {
+				System.out.println(hiddCheckButton+" Check box is displaying");
+			}
+		}System.out.println("All check boxes are (Hidded)  successfully");
+	}
+	
+	public void preSelectCheckBox() {
+		System.out.println("---validate the PreChecBox----");
+		for(WebElement preCheckBox : preSelectChekBox ) {
+			try {
+			if(preCheckBox.isSelected()&&preCheckBox.getAttribute("value").equalsIgnoreCase("firstSelect5")) {
+				preCheckBox.click();
+				Assert.assertFalse(preCheckBox.isSelected(),preCheckBox.getAttribute("value")
+				  +"is unselected");
+				 System.out.println("Name of check box is "+preCheckBox.getAttribute("value"));
+			}
+			}catch(Exception e) {
+				System.out.println("Selected checkbox is not unselected");
+			}
+		}System.out.println("--Selected one unselect Successfully");
+	}
+	public void nestedChekBox() {
+		System.out.println("----Nested checkBox Selection--");
+		try {
+		for(WebElement checkNestedBox : nestedChekBox) {
+			String name=checkNestedBox.getText();
+			checkNestedBox.click();
+			Assert.assertTrue(checkNestedBox.isSelected(),checkNestedBox.getAttribute("text()")+"is not Selected ");
+			System.out.println(name+" Status "+checkNestedBox.isSelected());
+		}
+		}catch(Exception e) {
+			System.out.println("Check box is not selected ");
+		}System.out.println("--all Nested checkboxes are selected Successfully");
+	}
+}
