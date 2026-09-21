@@ -19,12 +19,14 @@ public class TCAIDDAT extends BaseClassVL{
 		HomePage hm=new HomePage(driver);
 		logger.info("URL navigation home page");
 		hm.experienceLink();
+		Thread.sleep(500);
 		logger.info("URL navigation to Express "+driver.getCurrentUrl());
 		AideWebPage aid=new AideWebPage(driver);
 		aid.AideChat();
+		Thread.sleep(500);
 		aid.letAidChat();
 		logger.info("URL navigation to aid "+driver.getCurrentUrl());
-		Thread.sleep(500);
+		Thread.sleep(1000);
 		aid.fnametxt(fname);
 		aid.lnametxt(lname);
 		aid.emailtxt(email);
@@ -34,7 +36,7 @@ public class TCAIDDAT extends BaseClassVL{
 		aid.messagetxt(message);
 		aid.scrollDown();
 		aid.submitButton();
-		Thread.sleep(1000);
+		Thread.sleep(500);
 		if(status.equalsIgnoreCase("Pass")) {
 			Assert.assertEquals(aid.isSuccessMessageDisplayed(),"Thank you for expressing your interest!","Aid Chat failed");
 			logger.info("aid chat is success"+driver.getCurrentUrl());

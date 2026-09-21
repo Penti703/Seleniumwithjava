@@ -8,7 +8,8 @@ public class DataProviderVL {
 	public Object [][] dataChat(){
 		Object [][] data={
 				
-				  {"","","","","","Fail"}, {"Test","bd","elbd","jnewd","jnewd","InvalidEmail"},
+				  {"","","","","","Fail"}, 
+				  {"Test","bd","elbd","jnewd","jnewd","InvalidEmail"},
 				 
 				  {"Test","bd","elbd@gmail.com","jeni","jnewdtest","Pass"}
 				 
