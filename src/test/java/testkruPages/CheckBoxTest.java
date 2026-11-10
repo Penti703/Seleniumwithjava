@@ -30,15 +30,15 @@ public class CheckBoxTest extends BaseClassTestKru{
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[1]//input[@type='checkbox']")
 	 private List<WebElement> singleChekBox;
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[2]//input[@type='checkbox']")
-	 List<WebElement> multiChekBox;
+	 private List<WebElement> multiChekBox;
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[3]//input[@type='checkbox']")
-	 List<WebElement> disableChekBox;
+	 private List<WebElement> disableChekBox;
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[4]//input[@type='checkbox']")
-	 List<WebElement> hiddenChekBox;
+	 private List<WebElement> hiddenChekBox;
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[5]//input[@type='checkbox']")
-	 List<WebElement> preSelectChekBox;
+	 private List<WebElement> preSelectChekBox;
 	 @FindBy(xpath = "(//div[@class='mt-2 row text-dark'])[6]//input[@type='checkbox'][1]")
-	 List<WebElement> nestedChekBox;
+	 private List<WebElement> nestedChekBox;
 	 
 	 
 	 public void checkBoxLink() {
