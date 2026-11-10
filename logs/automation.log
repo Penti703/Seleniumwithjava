@@ -279,3 +279,221 @@
 2026-09-16 13:39:25 INFO  BaseClassVL - aid emailchat is error success handling
 2026-09-16 13:39:32 INFO  BaseClassVL - navigated to browser
 2026-09-16 13:39:32 INFO  BaseClassVL - URL navigation home page
+2026-09-26 06:34:46 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-09-26 06:34:49 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-09-26 06:34:50 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-09-26 06:34:50 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-09-26 06:34:54 INFO  BaseClassTestKru - Closing browser
+2026-09-26 06:34:54 INFO  BaseClassTestKru - Browser closed successfully
+2026-09-26 06:34:54 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 18:10:42 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 18:10:53 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 18:10:54 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 18:10:54 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 18:10:58 INFO  BaseClassTestKru - Closing browser
+2026-10-11 18:10:58 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 18:10:58 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 18:16:04 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 18:16:05 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 18:16:06 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 18:16:06 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 18:16:06 INFO  BaseClassTestKru - Closing browser
+2026-10-11 18:16:07 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 18:16:07 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 18:33:45 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 18:33:47 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 18:33:50 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 18:33:50 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 18:33:50 INFO  BaseClassTestKru - Closing browser
+2026-10-11 18:33:51 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 18:33:51 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 18:43:34 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 18:43:36 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 18:43:37 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 18:43:37 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 18:43:37 INFO  BaseClassTestKru - Closing browser
+2026-10-11 18:43:38 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 18:43:38 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 18:46:24 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 18:46:50 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 18:46:51 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 18:46:53 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 18:46:53 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 18:46:53 INFO  BaseClassTestKru - Closing browser
+2026-10-11 18:46:53 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 18:46:53 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 18:46:53 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 18:46:54 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 18:46:55 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 18:46:55 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 18:46:55 INFO  BaseClassTestKru - Closing browser
+2026-10-11 18:46:55 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 18:46:55 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 18:49:02 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 18:49:04 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 18:49:05 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 18:49:05 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 18:49:05 INFO  BaseClassTestKru - Closing browser
+2026-10-11 18:49:05 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 18:49:05 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 18:50:17 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 18:50:19 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 18:50:20 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 18:50:20 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 18:50:20 INFO  BaseClassTestKru - Closing browser
+2026-10-11 18:50:20 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 18:50:20 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 19:06:19 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 19:06:21 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 19:06:22 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 19:06:22 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 19:06:22 INFO  BaseClassTestKru - Page URL verifying successful https://testkru.com/
+2026-10-11 19:06:22 INFO  BaseClassTestKru - Page verification successfully Testkru - Codekru Playground for Testers
+2026-10-11 19:06:22 INFO  BaseClassTestKru - Page title verification successfullTestKru
+2026-10-11 19:06:22 INFO  BaseClassTestKru - Closing browser
+2026-10-11 19:06:23 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 19:06:23 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 19:06:23 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 19:06:24 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 19:06:25 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 19:06:25 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 19:06:25 INFO  BaseClassTestKru - Page text verification successfullTestkru - Codekru Playground for Testers
+2026-10-11 19:06:25 INFO  BaseClassTestKru - Closing browser
+2026-10-11 19:06:25 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 19:06:25 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 19:10:46 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 19:10:48 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 19:10:49 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 19:10:49 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 19:10:49 INFO  BaseClassTestKru - Page URL verifying success : https://testkru.com/
+2026-10-11 19:10:49 INFO  BaseClassTestKru - Page text verification success : Testkru - Codekru Playground for Testers
+2026-10-11 19:10:49 INFO  BaseClassTestKru - Page title verification success : TestKru
+2026-10-11 19:10:49 INFO  BaseClassTestKru - Closing browser
+2026-10-11 19:10:50 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 19:10:50 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 19:11:30 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 19:11:32 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 19:11:34 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 19:11:34 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 19:11:34 INFO  BaseClassTestKru - Page URL verifying success : https://testkru.com/
+2026-10-11 19:11:34 INFO  BaseClassTestKru - Page text verification success : Testkru - Codekru Playground for Testers
+2026-10-11 19:11:34 INFO  BaseClassTestKru - Page title verification success : TestKru
+2026-10-11 19:11:34 INFO  BaseClassTestKru - Closing browser
+2026-10-11 19:11:34 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 19:11:34 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 19:30:45 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 19:30:47 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 19:30:49 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 19:30:49 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 19:30:49 INFO  BaseClassTestKru - Closing browser
+2026-10-11 19:30:49 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 19:30:49 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 22:42:23 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 22:42:27 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 22:42:28 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 22:42:28 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 22:42:28 INFO  BaseClassTestKru - Page URL verifying success : https://testkru.com/
+2026-10-11 22:42:28 INFO  BaseClassTestKru - Page text verification success : Testkru - Codekru Playground for Testers
+2026-10-11 22:42:28 INFO  BaseClassTestKru - Page title verification success : TestKru
+2026-10-11 22:42:28 INFO  BaseClassTestKru - Closing browser
+2026-10-11 22:42:28 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 22:42:28 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 23:07:54 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 23:07:57 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 23:07:58 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 23:07:58 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 23:07:58 INFO  BaseClassTestKru - Page URL verifying success : https://testkru.com/
+2026-10-11 23:07:58 INFO  BaseClassTestKru - Page text verification success : Testkru - Codekru Playground for Testers
+2026-10-11 23:07:58 INFO  BaseClassTestKru - Page title verification success : TestKru
+2026-10-11 23:07:58 INFO  BaseClassTestKru - Closing browser
+2026-10-11 23:07:58 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 23:07:58 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 23:08:43 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 23:08:45 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 23:08:46 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 23:08:46 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 23:08:46 INFO  BaseClassTestKru - Page URL verifying success : https://testkru.com/
+2026-10-11 23:08:46 INFO  BaseClassTestKru - Page text verification success : Testkru - Codekru Playground for Testers
+2026-10-11 23:08:46 INFO  BaseClassTestKru - Page title verification success : TestKru
+2026-10-11 23:08:46 INFO  BaseClassTestKru - Closing browser
+2026-10-11 23:08:47 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 23:08:47 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-11 23:10:50 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-11 23:10:52 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-11 23:10:53 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-11 23:10:53 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-11 23:10:53 INFO  BaseClassTestKru - Page URL verifying success : https://testkru.com/
+2026-10-11 23:10:53 INFO  BaseClassTestKru - Page text verification success : Testkru - Codekru Playground for Testers
+2026-10-11 23:10:53 INFO  BaseClassTestKru - Page title verification success : TestKru
+2026-10-11 23:10:53 INFO  BaseClassTestKru - Closing browser
+2026-10-11 23:10:54 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-11 23:10:54 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-12 00:13:21 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-12 00:13:24 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-12 00:13:25 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-12 00:13:25 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-12 00:13:25 INFO  BaseClassTestKru - Closing browser
+2026-10-12 00:13:26 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-12 00:13:26 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-12 00:13:26 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-12 00:13:26 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-12 00:13:27 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-12 00:13:27 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-12 00:13:27 INFO  BaseClassTestKru - Closing browser
+2026-10-12 00:13:27 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-12 00:13:27 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-12 00:13:27 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-12 00:13:28 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-12 00:13:29 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-12 00:13:29 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-12 00:13:29 INFO  BaseClassTestKru - Closing browser
+2026-10-12 00:13:29 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-12 00:13:29 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-12 00:14:32 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-12 00:14:33 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-12 00:14:35 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-12 00:14:35 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-12 00:14:35 INFO  BaseClassTestKru - URL verified
+2026-10-12 00:14:35 INFO  BaseClassTestKru - Closing browser
+2026-10-12 00:14:35 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-12 00:14:35 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-12 00:14:35 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-12 00:14:36 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-12 00:14:37 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-12 00:14:37 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-12 00:14:37 INFO  BaseClassTestKru - URL verified
+2026-10-12 00:14:37 INFO  BaseClassTestKru - Closing browser
+2026-10-12 00:14:37 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-12 00:14:37 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-12 00:14:37 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-12 00:14:38 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-12 00:14:39 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-12 00:14:39 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-12 00:14:39 INFO  BaseClassTestKru - URL verified
+2026-10-12 00:14:39 INFO  BaseClassTestKru - Closing browser
+2026-10-12 00:14:39 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-12 00:14:39 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-12 00:20:23 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-12 00:20:25 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-12 00:20:27 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-12 00:20:27 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-12 00:20:27 INFO  BaseClassTestKru - text verified:  Testkru - Codekru Playground for Testers
+2026-10-12 00:20:27 INFO  BaseClassTestKru - Closing browser
+2026-10-12 00:20:27 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-12 00:20:27 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-12 00:20:27 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-12 00:20:28 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-12 00:20:29 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-12 00:20:29 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-12 00:20:29 INFO  BaseClassTestKru - title verified : TestKru
+2026-10-12 00:20:29 INFO  BaseClassTestKru - Closing browser
+2026-10-12 00:20:29 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-12 00:20:29 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-10-12 00:20:29 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-10-12 00:20:30 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-10-12 00:20:31 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-10-12 00:20:31 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-10-12 00:20:31 INFO  BaseClassTestKru - URL verified : https://testkru.com/
+2026-10-12 00:20:31 INFO  BaseClassTestKru - Closing browser
+2026-10-12 00:20:31 INFO  BaseClassTestKru - Browser closed successfully
+2026-10-12 00:20:31 INFO  BaseClassTestKru - ===== Test Execution Completed =====

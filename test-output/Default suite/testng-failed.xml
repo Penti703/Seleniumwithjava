@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="valueLabs.com.TCAIDDAT">
+      <class name="testkru.cases.com.HomePageVerification">
         <methods>
-          <include name="testAIDChat" invocation-numbers="2"/>
-          <include name="OpenPage"/>
-          <include name="closeApp"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="verifyHomePageText"/>
+          <include name="verifyHomePageURL"/>
+          <include name="tearDown"/>
+          <include name="openPage"/>
         </methods>
-      </class> <!-- valueLabs.com.TCAIDDAT -->
+      </class> <!-- testkru.cases.com.HomePageVerification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

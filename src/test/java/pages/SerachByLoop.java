@@ -34,14 +34,11 @@ public class SerachByLoop {
 			WebElement option=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ul[@id='ui-id-1']")));
 			option.click();
 		}
-		
-	
+			
 		List<WebElement> Svalue=driver.findElements(By.xpath("//div[@class='ui-autocomplete-multiselect-item']"));
-		
 		for(WebElement value : Svalue) {
 			String name=value.getText();
 			System.out.println("Selected values is : "+name);
-
 		}
 		
 		driver.close();
