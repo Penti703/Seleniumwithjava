@@ -16,7 +16,7 @@ public class BaseClassTestKru {
 
     protected WebDriver driver;
 
-    protected static final Logger logger =
+    public static final Logger logger =
             LogManager.getLogger(BaseClassTestKru.class);
 
     @BeforeMethod

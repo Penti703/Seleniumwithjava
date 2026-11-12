@@ -1,5 +1,6 @@
 package testkru.com;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import testkruPages.CheckBoxTest;
@@ -11,6 +12,11 @@ public class TC_001_CheckBoxPage extends BaseClassTestKru{
 		CheckBoxTest cbt=new CheckBoxTest(driver);
 		//navigate to check boox
 		cbt.checkBoxLink();
+		String actualURL=cbt.getCurrentUrl();
+		String expURL="https://testkru.com/Elements/Checkboxes".trim();
+		System.out.println("chekBoxLink is : "+actualURL);
+		Assert.assertEquals(expURL,actualURL,"URL is Mis matched ");
+		System.out.println("Checkbox Navigation Successfully");	
 		//Identifying Single check
 		cbt.singleSelectCheckBox(); 
 		//Multi Select Check box test

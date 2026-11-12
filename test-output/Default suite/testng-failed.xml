@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testkru.cases.com.HomePageVerification">
+      <class name="testkru.com.TC002_SingleCheckBox">
         <methods>
-          <include name="verifyHomePageTitle"/>
-          <include name="verifyHomePageText"/>
-          <include name="verifyHomePageURL"/>
+          <include name="selectSingleCheckBox"/>
           <include name="tearDown"/>
           <include name="openPage"/>
         </methods>
-      </class> <!-- testkru.cases.com.HomePageVerification -->
+      </class> <!-- testkru.com.TC002_SingleCheckBox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
