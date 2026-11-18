@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testkru.com.TC002_SingleCheckBox">
+      <class name="testkru.com.TC003_MultiCheckbox">
         <methods>
-          <include name="selectSingleCheckBox"/>
+          <include name="verifyMultiCheckBox"/>
           <include name="tearDown"/>
           <include name="openPage"/>
         </methods>
-      </class> <!-- testkru.com.TC002_SingleCheckBox -->
+      </class> <!-- testkru.com.TC003_MultiCheckbox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

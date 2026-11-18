@@ -712,3 +712,45 @@
 2026-11-11 12:28:17 INFO  BaseClassTestKru - Closing browser
 2026-11-11 12:28:17 INFO  BaseClassTestKru - Browser closed successfully
 2026-11-11 12:28:17 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-11-12 11:08:40 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-11-12 11:09:15 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-11-12 11:09:17 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-11-12 11:09:17 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-11-12 11:09:20 INFO  BaseClassTestKru -  Status of Selection all the checkboxes false
+2026-11-12 11:09:20 INFO  BaseClassTestKru - Closing browser
+2026-11-12 11:09:20 INFO  BaseClassTestKru - Browser closed successfully
+2026-11-12 11:09:20 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-11-12 11:10:30 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-11-12 11:10:31 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-11-12 11:10:33 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-11-12 11:10:33 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-11-12 11:10:36 INFO  BaseClassTestKru -  Status of Selection all the checkboxes false
+2026-11-12 11:10:36 INFO  BaseClassTestKru - Closing browser
+2026-11-12 11:10:36 INFO  BaseClassTestKru - Browser closed successfully
+2026-11-12 11:10:36 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-11-12 11:15:16 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-11-12 11:15:19 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-11-12 11:15:21 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-11-12 11:15:21 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-11-12 11:15:24 INFO  BaseClassTestKru -  Status of Selection all the checkboxes false
+2026-11-12 11:15:24 INFO  BaseClassTestKru - Closing browser
+2026-11-12 11:15:24 INFO  BaseClassTestKru - Browser closed successfully
+2026-11-12 11:15:24 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-11-18 08:38:02 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-11-18 08:38:27 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-11-18 08:38:28 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-11-18 08:38:28 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-11-18 08:38:31 INFO  TC002_SingleCheckBox - Navigated to the URL https://testkru.com/Elements/Checkboxes
+2026-11-18 08:38:31 INFO  BaseClassTestKru - Closing browser
+2026-11-18 08:38:31 INFO  BaseClassTestKru - Browser closed successfully
+2026-11-18 08:38:31 INFO  BaseClassTestKru - ===== Test Execution Completed =====
+2026-11-18 08:38:31 INFO  BaseClassTestKru - ===== Test Setup Started =====
+2026-11-18 08:38:32 INFO  BaseClassTestKru - Chrome browser launched successfully
+2026-11-18 08:38:34 INFO  BaseClassTestKru - Current URL: https://testkru.com/
+2026-11-18 08:38:34 INFO  BaseClassTestKru - Browser opened and URL navigation completed
+2026-11-18 08:38:36 INFO  TC002_SingleCheckBox - Navigated to the URL https://testkru.com/Elements/Checkboxes
+2026-11-18 08:38:36 INFO  TC002_SingleCheckBox - Selection one by one is |:| true
+2026-11-18 08:38:36 INFO  TC002_SingleCheckBox - Single-select checkboxes verified successfully.
+2026-11-18 08:38:36 INFO  BaseClassTestKru - Closing browser
+2026-11-18 08:38:37 INFO  BaseClassTestKru - Browser closed successfully
+2026-11-18 08:38:37 INFO  BaseClassTestKru - ===== Test Execution Completed =====
