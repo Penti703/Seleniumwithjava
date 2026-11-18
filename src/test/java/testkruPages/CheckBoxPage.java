@@ -66,17 +66,33 @@ public class CheckBoxPage {
 	}
 
 	public boolean validateMultiSelectBehavior() {
-		for(WebElement multiChecklist : multiSelectCheckBox) {
-			String value=multiChecklist.getAttribute("value");
-			multiChecklist.click();
-			System.out.println("Check Box name"+value+": Result is | "+multiChecklist.isSelected());
-			if(!multiChecklist.isSelected()) {
-				System.out.println(value+"Failed to select the checkbox");
-				return false;
-			}else {
-				System.out.println(value+"Failed to select the unchecheckbox");
+		for (WebElement multiChecklist : multiSelectCheckBox) {
+			String value = multiChecklist.getAttribute("value");
+			//System.out.println("Check Box name" + value + ": Result is | " + multiChecklist.isSelected());
+			if (!multiChecklist.isSelected()) {
+				multiChecklist.click();
+				;
+
+			} // Verify it is selected
+			if (!multiChecklist.isSelected()) {
+				System.out.println("Check box name " + value + " failed to be selected");
 				return false;
 			}
+			System.out.println("Check box name || " + value + " || Selected successfully || " + multiChecklist.isSelected());
+		}
+		System.out.println("All multi selected check box are verified now -started unselected selected one ");
+
+		for (WebElement multiUncheckList : multiSelectCheckBox) {
+			String value = multiUncheckList.getAttribute("value");
+			//System.out.println("Check Box name" + value + ": Result is | " + !multiUncheckList.isSelected());
+			if (multiUncheckList.isSelected()) {
+				multiUncheckList.click();
+			} // verify the unselect the selected one
+			if (multiUncheckList.isSelected()) {
+				System.out.println("Check box " + value + " failed to be un-selected");
+				return false;
+			}
+			System.out.println("Check box name || " + value + " || Unselected Successfully || " +!multiUncheckList.isSelected());
 		}
 		return true;
 	}
